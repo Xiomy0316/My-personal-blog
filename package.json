@@ -1,0 +1,29 @@
+{
+  "name": "new-repository",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.24.8",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.9.1",
+    "gh-pages": "^6.1.1",
+    "htmlhint": "^1.1.4",
+    "jest": "^29.7.0",
+    "opener": "^1.5.2",
+    "serve": "^14.2.3"
+  },
+  "scripts": {
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run eslint && npm run htmlhint",
+    "test": "jest --verbose --coverage",
+    "open-coverage-report": "opener ./coverage/lcov-report/index.html",
+    "start": "serve src/",
+    "deploy": "gh-pages -d src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
