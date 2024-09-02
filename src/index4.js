@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+/*<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -59,4 +59,4 @@
     <script src="index.js" type="module"></script>
 </body>
 
-</html>
+</html>*/
