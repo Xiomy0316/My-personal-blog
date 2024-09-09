@@ -1,14 +1,3 @@
-/*body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 20px 0;
-}*/
-
 /* Estilos para los enlaces */
 /*a {
     color: #007bff;
@@ -30,33 +19,33 @@ img {
     height: 150px;
 }*/
 body {
-    background-image: url("../src/Images/Fondo_4.jpg");
-    max-height: 100vh;
-    background-position: center;
-    background-color: #fff5f9;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Página inicial*/
+.container-presentation {
+    background-image: url("Images/stars-13910.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
     flex-wrap: wrap;
+    height: 100vh;
 }
-/*Página de bienvenida*/
+
 .logo {
-    background-image: url("../src/Images/Logo_1-1.svg");
+    background-image: url("Images/Tech-generated_Two_.png");
     background-repeat: no-repeat;
-    position: relative;
-    height: 14em;
-    width: 35em;
+    position: fixed;
+    height: 28em;
+    width: 100em;
     display: flex;
-    margin-left: 32%; 
-    margin-top: -4%; 
+    margin-left: 32%;
+    margin-top: -12%;
 }
-.Tech {
-    background-image: url("Images/Tech-generated.png");
-    background-repeat: no-repeat;
-    height: 24.5em;
-    width: 36em;
-    position: relative;
-    display: flex;
-    margin-left: 32%; 
-    margin-top: -4%; 
-}
+
 /*Barra de carga*/
 .progress-bar {
     position: absolute;
@@ -65,17 +54,19 @@ body {
     display: flex;
     border-radius: 0.5em;
     border: 0.094em solid rgba(0, 0, 0, 0.9);
-    margin-top: -1%;
-    margin-left: 37%;
+    margin-top: 36%;
+    margin-left: 32%;
 }
+
 .preloader {
-    margin:auto;
+    margin: auto;
     width: 350px;
     height: 20px;
     background: rgba(229, 226, 226, 0.1);
     position: relative;
 }
-.preloader:before{
+
+.preloader:before {
     content: "";
     position: absolute;
     background: rgba(239, 174, 174, 1);
@@ -83,7 +74,9 @@ body {
     width: 0px;
     height: 20px;
     animation: preloader 10s infinite;
-}.preloader p {
+}
+
+.preloader p {
     margin: 0;
     line-height: 20px;
     font-size: 1.25rem;
@@ -93,9 +86,10 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
+
 /*transicion de página a página*/
-.close {
-    transform:translateY(-200%);
+transicion.close {
+    transform: translateY(-200%);
     transition: all 0s;
 }
 
@@ -104,275 +98,238 @@ body {
         width: 100%;
         opacity: 1;
     }
+
     100% {
         width: 100%;
         opacity: 0;
     }
 }
-/*Responsive página de bienvenida*/
-@media (min-width: 280px) and (max-width: 415px) and (orientation: portrait) {
-    .logo {
-        background-image: url("Images/Logo-responsive.png");
-        background-repeat: no-repeat;
-        position: relative;
-        background-size: contain;
-        height: 14em;
-        width: 22em;
-        display: ruby-text-container;;
-        margin-left: -1.5%; 
-        margin-top: -4%;
-        background-position:center;
-    }
-    
-    .Tech {
-        background-image: url("Images/Pikachu-responsive.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 24.5em;
-        width: 23em;
-        position: relative;
-        display: ruby-text-container;;
-        margin-left: -6%; 
-        margin-top: -16%; 
-    }
-    
-    .progress-bar {
-        position: absolute;
-        color: rgb(107, 107, 107);
-        min-height: 0.5vh;
-        display: flex;
-        border-radius: 0.5em;
-        border: 0.094em solid rgba(0, 0, 0, 0.9);
-        margin-top: -18%;
-        margin-left: 3%;
-    }
-    
-    .preloader {
-        margin:auto;
-        width: 320px;
-        height: 20px;
-        background: rgba(229, 226, 226, 0.1);
-        position: relative;
-    }
-    
-    .preloader:before{
-        content: "";
-        position: absolute;
-        background: rgba(239, 174, 174, 1);
-        border-radius: 0.5em;
-        width: 0px;
-        height: 20px;
-        animation: preloader 10s infinite;
-    }
-    
-    .preloader p {
-        margin: 0;
-        line-height: 20px;
-        font-size: 1.25rem;
-        font-weight: bold;
-        position: absolute;
-        color: #333333;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+
+/*Página de bienvenida*/
+.home {
+    background-image: url("Images/stars-13910.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+    height: 100vh;
 }
 
-@media (min-width: 416px) and (max-width: 768px) and (orientation: portrait) {
-    .logo {
-        background-image: url("Images/Logo-responsive.png");
-        background-repeat: no-repeat;
-        position: relative;
-        background-size: contain;
-        height: 14em;
-        width: 22em;
-        display: ruby-text-container;;
-        margin-left: 16%; 
-        margin-top: -2%;
-        background-position:center;
-    }
-    
-    .Tech {
-        background-image: url("Images/Pikachu-responsive.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 24.5em;
-        width: 23em;
-        position: relative;
-        display: ruby-text-container;;
-        margin-left: 12%; 
-        margin-top: -8%; 
-    }
-    
-    .progress-bar {
-        position: absolute;
-        color: rgb(107, 107, 107);
-        min-height: 0.5vh;
-        display: flex;
-        border-radius: 0.5em;
-        border: 0.094em solid rgba(0, 0, 0, 0.9);
-        margin-top: -16%;
-        margin-left: 20%;
-    }
-    
-    .preloader {
-        margin:auto;
-        width: 320px;
-        height: 20px;
-        background: rgba(229, 226, 226, 0.1);
-        position: relative;
-    }
-    
-    .preloader:before{
-        content: "";
-        position: absolute;
-        background: rgba(239, 174, 174, 1);
-        border-radius: 0.5em;
-        width: 0px;
-        height: 20px;
-        animation: preloader 10s infinite;
-    }
-    
-    .preloader p {
-        margin: 0;
-        line-height: 20px;
-        font-size: 1.25rem;
-        font-weight: bold;
-        position: absolute;
-        color: #333333;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-} 
-
-@media (min-width: 280px) and (max-width: 660px) and (orientation: landscape) {
-    .logo {
-        background-image: url("Images/Logo-responsive.png");
-        background-repeat: no-repeat;
-        position: relative;
-        background-size: contain;
-        height: 7em;
-        width: 11em;
-        display: ruby-text-container;;
-        margin-left: 35%; 
-        margin-top: -7.5%;
-        background-position:center;
-        justify-tracks: center;
-    }
-    
-    .Tech {
-        background-image: url("Images/Pikachu-responsive.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 8em;
-        position: relative;
-        display: ruby-text-container;;
-        margin-left: 33%; 
-        margin-top: -3%; 
-    }
-    
-    .progress-bar {
-        position: absolute;
-        color: rgb(107, 107, 107);
-        min-height: 0.5vh;
-        display: flex;
-        border-radius: 0.5em;
-        border: 0.094em solid rgba(0, 0, 0, 0.9);
-        margin-top: 0%;
-        margin-left: 38%;
-    }
-    
-    .preloader {
-        margin:auto;
-        width: 150px;
-        height: 10px;
-        background: rgba(229, 226, 226, 0.1);
-        position: relative;
-    }
-    
-    .preloader:before{
-        content: "";
-        position: absolute;
-        background: rgba(239, 174, 174, 1);
-        border-radius: 0.5em;
-        width: 0px;
-        height: 10px;
-        animation: preloader 10s infinite;
-    }
-    
-    .preloader p {
-        margin: 0;
-        line-height: 9px;
-        font-size: 0.7rem;
-        font-weight: bold;
-        position: absolute;
-        color: #333333;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+.buttons {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-bottom-style: solid;
 }
-@media (min-width: 400px) and (max-width: 840px) and (orientation: landscape) {
-    .logo {
-        background-image: url("Images/Logo-responsive.png");
-        background-repeat: no-repeat;
-        position: relative;
-        background-size: contain;
-        height: 8em;
-        width: 12em;
-        display: ruby-text-container;;
-        margin-left: 35%; 
-        margin-top: -9%;
-        background-position:center;
-        justify-tracks: center;
-    }
-    
-    .Tech {
-        background-image: url("Images/Pikachu-responsive.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 8em;
-        position: relative;
-        display: ruby-text-container;;
-        margin-left: 33%; 
-        margin-top: -3%; 
-    }
-    
-    .progress-bar {
-        position: absolute;
-        color: rgb(107, 107, 107);
-        min-height: 0.5vh;
-        display: flex;
-        border-radius: 0.5em;
-        border: 0.094em solid rgba(0, 0, 0, 0.9);
-        margin-top: 0%;
-        margin-left: 36%;
-    }
-    
-    .preloader {
-        margin:auto;
-        width: 200px;
-        height: 10px;
-        background: rgba(229, 226, 226, 0.1);
-        position: relative;
-    }
-    
-    .preloader:before{
-        content: "";
-        position: absolute;
-        background: rgba(239, 174, 174, 1);
-        border-radius: 0.5em;
-        width: 0px;
-        height: 10px;
-        animation: preloader 10s infinite;
-    }
-    
-    .preloader p {
-        margin: 0;
-        line-height: 9px;
-        font-size: 0.7rem;
-        font-weight: bold;
-        position: absolute;
-        color: #333333;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+
+.buttons a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.buttons a:hover {
+    text-decoration: underline;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 100px 0 rgba(39, 39, 39, 0.19);
+}
+
+#home,
+#biography,
+#blog {
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: Roboto;
+    padding: 1px;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-style: Bold;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: center;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.text_One p {
+    font-family: Roboto;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25em;
+    text-align: justify;
+    margin: 24px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(237, 237, 234);
+}
+
+/*Página de biografía*/
+.biography {
+    background-image: url("Images/stars-13910.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200vh;
+}
+
+.image_Perfil {
+    display: block;
+    margin: 120px auto;  
+}
+
+.Images {
+    background-image: url("Images/Foto_Perfil_Two.png");
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display:flex;
+}
+
+.text_Two h2 {
+    font-family: Roboto;
+    padding: 196px;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-style: Bold;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: center;
+    justify-content: center;
+    margin-top: -594px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.text_Two p{
+    font-family: Roboto;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25em;
+    text-align:justify;
+    margin: 24px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(237, 237, 234);
+}
+
+#back {
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    text-align: center;
+    justify-content: center;
+    border-bottom-style: solid;
+    display: block;
+    margin: 4px auto; 
+}
+
+#back a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#back a:hover {
+    text-decoration: underline;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 100px 0 rgba(39, 39, 39, 0.19);
+}
+
+/*Página de blog*/
+.blog {
+    background-image: url("Images/stars-13910.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    height: 360vh;
+}
+
+.text_Three h2 {
+    font-family: Roboto;
+    padding: 1px;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-style: Bold;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: center;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.text_Three p{
+    font-family: Roboto;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25em;
+    text-align: justify;
+    margin: 24px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(237, 237, 234);
+}
+
+.Abaco {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Abaco_1 {
+    background-image: url("Images/Abaco_1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30vh;
+    width: 200px;
+}
+
+.Abaco_2 {
+    background-image: url("Images/Abaco_2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 30vh;
+    width: 200px;
+}
+
+#back_Two {
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    text-align: center;
+    justify-content: center;
+    border-bottom-style: solid;
+    display: block;
+    margin: 4px auto; 
+}
+
+#back_Two a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#back_Two a:hover {
+    text-decoration: underline;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 100px 0 rgba(39, 39, 39, 0.19);
 }
