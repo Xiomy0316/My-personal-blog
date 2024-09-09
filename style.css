@@ -1,0 +1,335 @@
+/* Estilos para los enlaces */
+/*a {
+    color: #007bff;
+    text-decoration: none;
+}*/
+
+/* Estilos para la cabecera)*/
+/*header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}*/
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Página inicial*/
+.container-presentation {
+    background-image: url("Images/stars-13910.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.logo {
+    background-image: url("Images/Tech-generated_Two_.png");
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 28em;
+    width: 100em;
+    display: flex;
+    margin-left: 32%;
+    margin-top: -12%;
+}
+
+/*Barra de carga*/
+.progress-bar {
+    position: absolute;
+    color: rgb(107, 107, 107);
+    min-height: 0.5vh;
+    display: flex;
+    border-radius: 0.5em;
+    border: 0.094em solid rgba(0, 0, 0, 0.9);
+    margin-top: 36%;
+    margin-left: 32%;
+}
+
+.preloader {
+    margin: auto;
+    width: 350px;
+    height: 20px;
+    background: rgba(229, 226, 226, 0.1);
+    position: relative;
+}
+
+.preloader:before {
+    content: "";
+    position: absolute;
+    background: rgba(239, 174, 174, 1);
+    border-radius: 0.5em;
+    width: 0px;
+    height: 20px;
+    animation: preloader 10s infinite;
+}
+
+.preloader p {
+    margin: 0;
+    line-height: 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    position: absolute;
+    color: #333333;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*transicion de página a página*/
+transicion.close {
+    transform: translateY(-200%);
+    transition: all 0s;
+}
+
+@keyframes preloader {
+    90% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 0;
+    }
+}
+
+/*Página de bienvenida*/
+.home {
+    background-image: url("Images/stars-13910.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.buttons {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-bottom-style: solid;
+}
+
+.buttons a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.buttons a:hover {
+    text-decoration: underline;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 100px 0 rgba(39, 39, 39, 0.19);
+}
+
+#home,
+#biography,
+#blog {
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: Roboto;
+    padding: 1px;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-style: Bold;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: center;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.text_One p {
+    font-family: Roboto;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25em;
+    text-align: justify;
+    margin: 24px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(237, 237, 234);
+}
+
+/*Página de biografía*/
+.biography {
+    background-image: url("Images/stars-13910.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200vh;
+}
+
+.image_Perfil {
+    display: block;
+    margin: 120px auto;  
+}
+
+.Images {
+    background-image: url("Images/Foto_Perfil_Two.png");
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display:flex;
+}
+
+.text_Two h2 {
+    font-family: Roboto;
+    padding: 196px;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-style: Bold;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: center;
+    justify-content: center;
+    margin-top: -594px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.text_Two p{
+    font-family: Roboto;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25em;
+    text-align:justify;
+    margin: 24px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(237, 237, 234);
+}
+
+#back {
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    text-align: center;
+    justify-content: center;
+    border-bottom-style: solid;
+    display: block;
+    margin: 4px auto; 
+}
+
+#back a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#back a:hover {
+    text-decoration: underline;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 100px 0 rgba(39, 39, 39, 0.19);
+}
+
+/*Página de blog*/
+.blog {
+    background-image: url("Images/stars-13910.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    height: 360vh;
+}
+
+.text_Three h2 {
+    font-family: Roboto;
+    padding: 1px;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-style: Bold;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: center;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.text_Three p{
+    font-family: Roboto;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25em;
+    text-align: justify;
+    margin: 24px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(237, 237, 234);
+}
+
+.Abaco {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Abaco_1 {
+    background-image: url("Images/Abaco_1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30vh;
+    width: 200px;
+}
+
+.Abaco_2 {
+    background-image: url("Images/Abaco_2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 30vh;
+    width: 200px;
+}
+
+#back_Two {
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    text-align: center;
+    justify-content: center;
+    border-bottom-style: solid;
+    display: block;
+    margin: 4px auto; 
+}
+
+#back_Two a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#back_Two a:hover {
+    text-decoration: underline;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 100px 0 rgba(39, 39, 39, 0.19);
+}
