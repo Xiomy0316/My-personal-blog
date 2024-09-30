@@ -1,23 +1,3 @@
-/* Estilos para los enlaces */
-/*a {
-    color: #007bff;
-    text-decoration: none;
-}*/
-
-/* Estilos para la cabecera)*/
-/*header {
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-
-h1, h2 {
-    color: #333;
-}
-img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}*/
 body {
     padding: 0px;
     margin: 0px;
@@ -29,10 +9,10 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
+    width: 100%;
 }
 
 .logo {
@@ -40,7 +20,7 @@ body {
     background-repeat: no-repeat;
     position: fixed;
     height: 28em;
-    width: 100em;
+    width: 20em;
     display: flex;
     margin-left: 32%;
     margin-top: -12%;
@@ -48,7 +28,7 @@ body {
 
 /*Barra de carga*/
 .progress-bar {
-    position: absolute;
+    position: fixed;
     color: rgb(107, 107, 107);
     min-height: 0.5vh;
     display: flex;
@@ -107,23 +87,27 @@ transicion.close {
 
 /*Página de bienvenida*/
 .home {
-    background-image: url("Images/stars-13910.gif");
+    background-image: url(Images/stars2-1845140_1280.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     flex-wrap: wrap;
     height: 100vh;
+    display: flex;
+    width: 100%;
 }
 
 .buttons {
-    background-color: #333;
+    background-color: #121111;
+    opacity: 0.7;
     color: white;
-    padding: 8px;
+    padding: 14px;
     text-align: center;
     display: flex;
     justify-content: space-around;
     border-bottom-style: solid;
+    width: 100%;
 }
 
 .buttons a {
@@ -148,44 +132,40 @@ transicion.close {
 
 h1 {
     font-family: Roboto;
-    padding: 1px;
-    color: rgb(0, 0, 0);
+    margin-top: 45px;
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     font-style: Bold;
     font-weight: 600;
-    line-height: 1.5em;
+    line-height: 1em;
     text-align: center;
-    -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 .text_One p {
     font-family: Roboto;
-    color: rgb(0, 0, 0);
+    color: rgb(237, 237, 234);
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: 1.25em;
     text-align: justify;
     margin: 24px;
-    -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: rgb(237, 237, 234);
 }
 
 /*Página de biografía*/
 .biography {
-    background-image: url("Images/stars-13910.gif");
+    background-image: url("Images/stars2-1845140_1280.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
-    height: 200vh;
+    width: 100%;
 }
 
 .image_Perfil {
-    display: block;
+    display: flex;
     margin: 120px auto;  
 }
 
@@ -200,29 +180,189 @@ h1 {
 .text_Two h2 {
     font-family: Roboto;
     padding: 196px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     font-style: Bold;
     font-weight: 600;
     line-height: 1.5em;
     text-align: center;
     justify-content: center;
-    margin-top: -594px;
-    -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
+    margin-top: -590px;
 }
 
 .text_Two p{
     font-family: Roboto;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25em;
+    text-align:justify;
+    margin: 40px 24px;
+}
+
+.additionalText_One h3 {
+    font-family: Roboto;
+    padding: 2px;
+    color: rgb(220, 202, 202);
+    font-size: 2.5rem;
+    font-style: Bold;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: left;
+    justify-content: center;
+    margin: 24px;
+    margin-top: -2px;
+    
+}
+
+.additionalText_One p{
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: 1.25em;
     text-align:justify;
     margin: 24px;
-    -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: rgb(237, 237, 234);
+}
+
+.additionalText_Two h3 {
+    font-family: Roboto;
+    padding: 6px;
+    color: rgb(220, 202, 202);
+    font-size: 2.5rem;
+    font-style: Bold;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: left;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+#languageOne,#languageTwo,#languageThree,#languageFour,#languageFive,#languageSix {
+  border-radius: 40px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  margin: 24px;
+  cursor: pointer;
+  margin-block-end: 8%;
+}
+
+#languageOne {
+    background-color: #f5d678;
+    opacity: 0.6;
+    color: black; 
+    border: 2px solid #f5d678;
+}
+  
+  #languageOne:hover {
+    background-color: #f5be18;
+    color: white;
+}
+
+#languageTwo {
+    background-color: #78f5a8;
+    opacity: 0.6;
+    color: black; 
+    border: 2px solid #78f5a8;
+}
+  
+  #languageTwo:hover {
+    background-color: #00ff62;
+    color: white;
+}
+
+#languageThree {
+    background-color: #f578ac;
+    opacity: 0.6;
+    color: black; 
+    border: 2px solid #f578ac;
+}
+  
+  #languageThree:hover {
+    background-color: #ff006a;
+    color: white;
+}
+
+#languageFour {
+    background-color: #787cf5;
+    opacity: 0.6;
+    color: black; 
+    border: 2px solid #787cf5;
+}
+  
+  #languageFour:hover {
+    background-color: #0008ff;
+    color: white;
+}
+
+#languageFive {
+    background-color: #f5b978;
+    opacity: 0.6;
+    color: black; 
+    border: 2px solid #f5b978;
+}
+  
+  #languageFive:hover {
+    background-color: #ff8400;
+    color: white;
+}
+
+#languageSix {
+    background-color: #f57878;
+    opacity: 0.6;
+    color: black; 
+    border: 2px solid #f57878;
+}
+  
+  #languageSix:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+.my_Contact {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+h4 {
+    font-family: Roboto;
+    padding: 6px;
+    color: rgb(220, 202, 202);
+    font-size: 2rem;
+    font-style: Bold;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: left;
+    justify-content: center;
+    margin: 20px;
+    margin-top: -20px;
+}
+
+.linksImages_One_A {
+    background-position: left;
+    display: flex;
+    flex-wrap: wrap;
+    height: 10vh;
+    width: 34px;
+    margin-top: 60px;
+    margin-left: -280px;
+}
+
+.linksImages_Two_A {
+    background-position: left;
+    display: flex;
+    flex-wrap: wrap;
+    height: 10vh;
+    width: 34px;
+    margin-top: 60px;
+    margin-left: -260px;
 }
 
 #back {
@@ -231,8 +371,10 @@ h1 {
     text-align: center;
     justify-content: center;
     border-bottom-style: solid;
-    display: block;
-    margin: 4px auto; 
+    position: center;
+    display: flex;
+    margin: auto 20px; 
+    margin-bottom: 12px;
 }
 
 #back a {
@@ -249,40 +391,36 @@ h1 {
 
 /*Página de blog*/
 .blog {
-    background-image: url("Images/stars-13910.gif");
+    background-image: url("Images/stars2-1845140_1280.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
-    height: 360vh;
+    width: 100%;
+    height: 100%;
 }
 
 .text_Three h2 {
     font-family: Roboto;
-    padding: 1px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     font-style: Bold;
     font-weight: 600;
     line-height: 1.5em;
     text-align: center;
-    -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
-.text_Three p{
+.text_Three p {
     font-family: Roboto;
-    color: rgb(0, 0, 0);
-    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: 1.25em;
     text-align: justify;
     margin: 24px;
-    -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: rgb(237, 237, 234);
 }
 
 .Abaco {
@@ -318,8 +456,10 @@ h1 {
     text-align: center;
     justify-content: center;
     border-bottom-style: solid;
-    display: block;
-    margin: 4px auto; 
+    position: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 12px;
 }
 
 #back_Two a {
@@ -332,4 +472,134 @@ h1 {
 #back_Two a:hover {
     text-decoration: underline;
     box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 100px 0 rgba(39, 39, 39, 0.19);
+}
+
+/*Página inicial del blog*/
+.startBlog {
+    background-image: url("Images/stars2-1845140_1280.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.abaco {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30vh;
+    width: 200px;
+    margin-left: -40px;
+}
+
+.git {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 30vh;
+    width: 120px;
+    margin-left: -100px;
+}
+
+#rows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+    margin: 3.125em;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 0.625em;
+    border: 0.125em solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+    color: rgb(121, 94, 94);
+    width: 48em;
+    height: 12em;
+    cursor: pointer;
+}
+
+#rows {
+    background-color: rgba( 255, 255, 255, 0.18 );
+    opacity: 0.8;
+    color: black; 
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+}
+  
+#rows:hover {
+    background-color: rgba(135, 31, 97, 0.37);  
+    color: white;
+}
+
+.txtBlog h2{
+    font-family: Roboto;
+    margin-top: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-style: Bold;
+    font-weight: 600;
+    line-height: 1em;
+    text-align: right;
+}
+
+/*Entrada de blog de git*/
+
+.blogGit {
+    background-image: url("Images/stars2-1845140_1280.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.textGit h2 {
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+    font-size: 3.2rem;
+    font-style: Bold;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.textGit h3 {
+    font-family: Roboto;
+    padding: 6px;
+    color: rgb(220, 202, 202);
+    font-size: 2.2rem;
+    font-style: Bold;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-align: left;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.textGit p {
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25em;
+    text-align: justify;
+    margin: 24px;
 }
