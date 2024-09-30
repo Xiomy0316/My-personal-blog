@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 266.24521 189.29968" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="b">
+   <stop stop-color="#b3b3b3" stop-opacity="0" offset="0"/>
+   <stop stop-color="#b3b3b3" offset=".10298"/>
+   <stop stop-color="#b3b3b3" offset=".8997"/>
+   <stop stop-color="#b3b3b3" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="f" x1="298.39" x2="395.98" y1="495.4" y2="521.18" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#dfac89" offset="0"/>
+   <stop stop-color="#c97238" offset="1"/>
+  </linearGradient>
+  <linearGradient id="e" x1="299.31" x2="395.98" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#d6966a" offset="0"/>
+   <stop stop-color="#6e3e1e" offset="1"/>
+  </linearGradient>
+  <linearGradient id="g" x1="192.21" x2="458.12" y1="472.64" y2="473.32" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+  <linearGradient id="d" x1="192.21" x2="458.12" y1="416.81" y2="417.49" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+  <linearGradient id="c" x1="192.21" x2="458.12" y1="592.49" y2="593.17" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+ </defs>
+ <g transform="translate(-191.87 -410.68)">
+  <path d="m191.87 466.51h266.25v13.619h-266.25z" fill="url(#g)" fill-rule="evenodd"/>
+  <path d="m371.6 419.35h7.4903v172.96h-7.4903z" fill="#b3b3b3" fill-rule="evenodd"/>
+  <g id="a" transform="matrix(.47325 0 0 .42267 210.66 214.8)">
+   <path d="m324.17 495.4h46.95l24.856 25.777h-96.662l24.856-25.777z" fill="url(#f)" fill-rule="evenodd"/>
+   <path d="m371.12 546.96h-46.95l-24.856-25.777h96.662l-24.856 25.777z" fill="url(#e)" fill-rule="evenodd"/>
+  </g>
+  <path d="m322.19 419.35h7.4903v172.96h-7.4903z" fill="#b3b3b3" fill-rule="evenodd"/>
+  <path d="m272.78 419.35h7.4903v172.96h-7.4903z" fill="#b3b3b3" fill-rule="evenodd"/>
+  <path d="m223.37 419.35h7.4903v172.96h-7.4903z" fill="#b3b3b3" fill-rule="evenodd"/>
+  <path d="m191.87 586.36h266.25v13.619h-266.25z" fill="url(#c)" fill-rule="evenodd"/>
+  <path d="m191.87 410.68h266.25v13.619h-266.25z" fill="url(#d)" fill-rule="evenodd"/>
+  <use transform="translate(.00015005 74.941)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(.00015005 96.731)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(.00015005 118.52)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(.00015005 140.31)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-49.251)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-49.251 74.941)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-49.251 96.731)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-49.251 118.52)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-49.251 140.31)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-98.661)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-98.661 74.941)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-98.661 96.731)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-98.661 118.52)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-98.661 140.31)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <path d="m421.01 419.35h7.4903v172.96h-7.4903z" fill="#b3b3b3" fill-rule="evenodd"/>
+  <use transform="translate(49.57)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(49.57 74.941)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(49.57 96.731)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(49.57 118.52)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(49.57 140.31)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-147.59)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-148.07 74.941)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-148.07 96.731)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-148.07 118.52)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+  <use transform="translate(-148.07 140.31)" width="846.9801" height="1028.2174" xlink:href="#a"/>
+ </g>
+</svg>
