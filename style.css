@@ -603,3 +603,223 @@ h4 {
     text-align: justify;
     margin: 24px;
 }
+
+.gitD {
+    background-image: url("Images/Git .png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.gitB {
+    background-image: url("Images/gitA.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.gitBs {
+    background-image: url("Images/gitB.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.gitVersionV {
+    background-image: url("Images/git --version y git -v.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.user_name {
+    background-image: url("Images/user.name.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.user_email {
+    background-image: url("Images/user.email.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.configList {
+    background-image: url("Images/config --list.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.pwdCom {
+    background-image: url("Images/pwd.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.cdCom {
+    background-image: url("Images/cd.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.lsCom {
+    background-image: url("Images/ls.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.mkdirCom {
+    background-image: url("Images/mkdir.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.lsNewCom {
+    background-image: url("Images/lsNew.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.cdOpenCom {
+    background-image: url("Images/cdOpen.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.touchCom {
+    background-image: url("Images/touch.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.lsConfirmationCom {
+    background-image: url("Images/lsConfirmation.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.codeCom {
+    background-image: url("Images/code.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.initCom {
+    background-image: url("Images/init.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.lsaCom {
+    background-image: url("Images/ls -a.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.statusOneCom {
+    background-image: url("Images/statusOne.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.addOneCom {
+    background-image: url("Images/addOne.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.statusTwoCom {
+    background-image: url("Images/statusTwo.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
+
+.commitmCom {
+    background-image: url("Images/commit -m.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%
+}
