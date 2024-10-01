@@ -25,35 +25,190 @@
                 <h3>Descripción</h3>
                 <p>Aprende paso a paso cómo usar la terminal de Git para trabajar en tu proyecto.<br></br></p>
                 <h3>¿Qué es Git?</h3>
-                <p>Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto 
-                    es un repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales 
-                    permiten trabajar sin conexión o de forma remota con facilidad. <br></br>En un sistema de control de 
-                    versiones distribuido, cada desarrollador tiene una copia integral del proyecto y del historial del mismo, 
-                    proporcionándoles una vista consistente y unificada a los miembros del equipo de desarrollo.<br></br></p>
-                    <h3>Configuración inicial</h3>
-                    <p>Antes que todo debemos asegurarnos que Git esté correctamente instalado en nuestro sistema. Puedes
-                    verificarlo con git --version.<br></br></p>
-                    <p>Luego, debemos configurar nuestro nombre y correo electrónico<br></br></p>
-                    <h3>Inicialización del repositorio localmente</h3>
-                    <p><br></br></p>
-                    <h3></h3>
-                    <p><br></br></p>
-                    <h3></h3>
-                    <p><br></br></p>
-                    <h3></h3>
-                    <p><br></br></p>
-                    <h3></h3>
-                    <p><br></br></p>
-                <div class="Abaco">
-                    <figure class="">
-                        <img>
-                    </figure>
-                    <figure class="">
+                <p>Git es un sistema de control de versiones distribuido, lo que significa que un clon local del
+                    proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente
+                    funcionales permiten trabajar sin conexión o de forma remota con facilidad. <br></br>En un sistema
+                    de control de
+                    versiones distribuido, cada desarrollador tiene una copia integral del proyecto y del historial del
+                    mismo, proporcionándoles una vista consistente y unificada a los miembros del equipo de
+                    desarrollo.<br></br></p>
+                <h3>Planeación</h3>
+                <p>El primer paso para usar Git es descargarlo desde su página oficial a nuestro equipo, este ofrece
+                    diferentes versiones y permite descargas para macOS, Windows y Linux/Unix. Vamos a nuestra carpeta
+                    de descargas y abrimos nuestro archivo de Git, te pedirá permitir que esta aplicación haga cambios
+                    en el dispositivo a lo que se le debe dar aceptar, luego, te saldrán diferentes ventanas de diálogo,
+                    a las que le darás next o siguiente, dejando cada cosa por defecto, hasta que te aparezca la ventana
+                    de diálogo que pide seleccionar el editor de código, para este caso seleccionaremos Use Visual
+                    Studio Code as Git´s default editor, lo que significa Utilice Visual Studio Code como editor
+                    predeterminado de Git; le damos next o siguiente nuevamente a cada ventana de diálogo que nos
+                    aparezca, dejando todo por defecto, hasta que nos salga el botón install o instalar en la parte
+                    inferior del cuadro de diálogo, le damos clic y esperamos a que se complete la instalación, para
+                    luego presionar finish o finalizar.<br></br></p>
+                <div class="gitDownloads">
+                    <figure class="gitD">
                         <img>
                     </figure>
                 </div>
+                <p>Después de haber descargado Git en nuestro equipo, procedemos a abrir nuestra terminal de Git,
+                    buscando la aplicación a través de la barra de búsqueda con la palabra Git o directamente en nuestro
+                    equipo.<br></br></p>
+                <div class="gitBash">
+                    <figure class="gitB">
+                        <img>
+                    </figure>
+                    <figure class="gitBs">
+                        <img>
+                    </figure>
                 </div>
-                <button id="back_Two" target="_blank"><a href="./index5.html">VOLVER</a></button>
+                <h3>Configuración inicial</h3>
+                <p>Antes que todo debemos asegurarnos que Git esté correctamente instalado en nuestro sistema. Puedes
+                    verificarlo con git --version o git -v que sería la abreviación.<br></br></p>
+                <div class="gitVersionGitV">
+                    <figure class="gitVersionV">
+                        <img>
+                    </figure>
+                </div>
+                <p>Luego, debemos configurar nuestro nombre y correo electrónico, con los comandos git config --global
+                    user.name “Nombre de usuario” y git config --global user.email “Correo electrónico”. <br></br></p>
+                <p>Por ejemplo, git config --global user.name “Pepe Pérez” y git config --global user.email
+                    “pepitoperez@gmail.com”.<br></br></p>
+                <div class="config">
+                    <figure class="user_name">
+                        <img>
+                    </figure>
+                    <figure class="user_email">
+                        <img>
+                    </figure>
+                </div>
+                <p>Por último, se debe comprobar que se han establecido las configuraciones, para ello ejecutaremos el
+                    comando git config --list.<br></br></p>
+                <div class="gitConfigList">
+                    <figure class="configList">
+                        <img>
+                    </figure>
+                </div>
+                <h3>Inicialización del repositorio localmente</h3>
+                <p>Para comenzar, debemos saber en que lugar de nuestro equipo nos encontramos actualmente, con el
+                    propósito de definir si es el lugar deseado para albergar nuestro proyecto, o si por el contrario,
+                    queremos cambiar la ruta donde se guardará este localmente. Para ello ejecutaremos el comando pwd
+                    como se muestra a continuación. <br></br></p>
+                <div class="pwd">
+                    <figure class="pwdCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Si necesitamos cambiar la ruta donde se albergará nuestro proyecto, simplemente ejecutamos cd /el
+                    lugar donde queremos albergarlo. Ejemplo: cd /d.<br></br></p>
+                <div class="cd">
+                    <figure class="cdCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Luego, enlistamos todos los directorios o carpetas, y archivos que contiene el lugar que
+                    seleccionamos para albergar nuestro proyecto, en este caso el disco d; para esto, ejecutamos el
+                    comando ls.<br></br></p>
+                <div class="ls">
+                    <figure class="lsCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Para crear un directorio o carpeta, el cual contendrá nuestro proyecto, ejecutaremos el comando
+                    mkdir, seguido del nombre de la carpeta o directorio que queremos crear. Ejemplo: mkdir
+                    Tutorial_Git.<br></br></p>
+                <div class="mkdir">
+                    <figure class="mkdirCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Nuevamente colocamos ls para enlistar, ya allí nos debe de aparecer la nueva carpeta o directorio que
+                    creamos, en este caso, Tutorial_Git.<br></br></p>
+                <div class="lsNew">
+                    <figure class="lsNewCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Ahora ingresamos a la carpeta o directorio, para lo cual colocamos cd, seguido del nombre de la
+                    carpeta. Ejemplo: cd Tutorial_Git.<br></br></p>
+                <div class="cdOpen">
+                    <figure class="cdOpenCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Una vez que estamos dentro de la carpeta vamos a crear un archivo, para ello colocamos touch seguido
+                    del nombre del archivo que queremos crear, en este caso index.html<br></br></p>
+                <div class="touch">
+                    <figure class="touchCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Para confirmar que el archivo ha sido creado de forma exitosa enlistamos con ls; allí nos deben
+                    aparecer los archivos creados, para este caso index.html <br></br></p>
+                <div class="lsConfirmation">
+                    <figure class="lsConfirmationCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>A continuación, abrimos el Visual Studio Code con el comando code .<br></br></p>
+                <div class="code">
+                    <figure class="codeCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Después de abrir Visual Studio Code, procedemos a crear nuestro repositorio Git con el comando git
+                   init, el cual nos va a permitir mantener las versiones de nuestro código.<br></br></p>
+                <div class="init">
+                    <figure class="initCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Si queremos corroborar que el paso anterior fue ejecutado correctamente, simplemente colocamos ls -a,
+                   lo que permitirá que se muestren los directorios ocultos. <br></br></p>
+                <div class="lsa">
+                    <figure class="lsaCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Luego de haber seguido estos pasos, procedemos a mirar el estado de nuestro repositorio con git
+                   status, donde sabremos en que etapa se encuentra nuestro proyecto.<br></br></p>
+                <div class="statusOne">
+                    <figure class="statusOneCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Como vemos, nos encontramos actualmente en la ramificación master o rama principal; no se encuentra
+                   ningún commit todavía y hay un archivo de nombre index.html que aún no está siendo rastreado. Para
+                   que Git rastree este archivo, lo debemos agregar o adicionar y para ello, usaremos el comando git
+                   add seguido del nombre del archivo. Ejemplo: git add index.html <br></br></p>
+                <div class="addOne">
+                    <figure class="addOneCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Nota: lo ideal es hacer este procedimiento por cada archivo no rastreado o ya modificado, ya que se
+                   considera una buena práctica, pues también tenemos la posibilidad de hacer una adición de forma
+                   global o, mejor dicho, agregar todos los archivos a la vez, esto ocurre con el comando git add
+                   seguido de un punto. Ejemplo: git add .<br></br></p>
+                <p>Nuevamente colocamos git status, para verificar el estado del repositorio, donde nos muestra que el
+                   archivo está siendo rastreado ahora (está agregado) y se encuentra en fase de staged.<br></br></p>
+                <div class="statusTwo">
+                    <figure class="statusTwoCom">
+                        <img>
+                    </figure>
+                </div>
+                <p>Ahora procederemos a hacer el envío al repositorio local de los cambios realizados, para esto
+                   usaremos el comando git commit -m “comentario de los cambios que hice para este staged”.<br></br></p>
+                <div class="commitm">
+                    <figure class="commitmCom">
+                        <img>
+                    </figure>
+                </div>
+                <h3>Creación de branches (Ramas)</h3>
+                <p><br></br></p>
+                <p><br></br></p>
+                <p><br></br></p>
+                <p><br></br></p>
+            </div>
+            <button id="back_Two" target="_blank"><a href="./index5.html">VOLVER</a></button>
         </section>
     </main>
     <script src="index.js" type="module"></script>
