@@ -611,7 +611,7 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
 }
 
 .gitB {
@@ -621,7 +621,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -5%;
+    margin-bottom: -10%;
 }
 
 .gitBs {
@@ -631,7 +633,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -16%;
+    margin-bottom: -9%;
 }
 
 .gitVersionV {
@@ -641,7 +645,7 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
 }
 
 .user_name {
@@ -651,7 +655,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -2.7%;
+    margin-bottom: 3%;
 }
 
 .user_email {
@@ -661,7 +667,7 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
 }
 
 .configList {
@@ -671,7 +677,8 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-bottom: 6.5%;
 }
 
 .pwdCom {
@@ -681,7 +688,7 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
 }
 
 .cdCom {
@@ -691,7 +698,7 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
 }
 
 .lsCom {
@@ -701,7 +708,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -10%;
+    margin-bottom: -10%;
 }
 
 .mkdirCom {
@@ -711,7 +720,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -11.2%;
+    margin-bottom: -11.2%;
 }
 
 .lsNewCom {
@@ -721,7 +732,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -8.8%;
+    margin-bottom: -8.6%;
 }
 
 .cdOpenCom {
@@ -731,7 +744,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -12.8%;
+    margin-bottom: -12.7%;
 }
 
 .touchCom {
@@ -741,7 +756,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -14%;
+    margin-bottom: -14%;
 }
 
 .lsConfirmationCom {
@@ -751,7 +768,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -13.5%;
+    margin-bottom: -13.5%;
 }
 
 .codeCom {
@@ -761,7 +780,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -14.3%;
+    margin-bottom: -14.2%;
 }
 
 .initCom {
@@ -771,7 +792,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -12.2%;
+    margin-bottom: -12%;
 }
 
 .lsaCom {
@@ -781,7 +804,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -12.1%;
+    margin-bottom: -12%;
 }
 
 .statusOneCom {
@@ -791,7 +816,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -5.6%;
+    margin-bottom: -5.5%;
 }
 
 .addOneCom {
@@ -801,7 +828,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -14.5%;
+    margin-bottom: -14.4%;
 }
 
 .statusTwoCom {
@@ -811,7 +840,9 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -8.2%;
+    margin-bottom: -8%;
 }
 
 .commitmCom {
@@ -821,5 +852,67 @@ h4 {
     background-size:contain;
     display:block;
     height: 100vh;
-    width: 90%
+    width: 90%;
+    margin-top: -12%;
+    margin-bottom: -9%;
+}
+
+.branch_creation_git {
+    background-image: url("Images/branch_creation.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: -13%;
+    margin-bottom: -13%;
+}
+
+.gitBranch {
+    background-image: url("Images/git_branch.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: -12%;
+    margin-bottom: -11.9%;
+}
+
+.git_checkout {
+    background-image: url("Images/checkout.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: -12.6%;
+    margin-bottom: -12.6%;
+}
+
+.branchNew_git {
+    background-image: url("Images/branchNew.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: -12%;
+    margin-bottom: -11.9%;
+}
+
+.compilation {
+    background-image: url("Images/compilation.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
