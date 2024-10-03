@@ -43,7 +43,7 @@
                     predeterminado de Git; le damos next o siguiente nuevamente a cada ventana de diálogo que nos
                     aparezca, dejando todo por defecto, hasta que nos salga el botón install o instalar en la parte
                     inferior del cuadro de diálogo, le damos clic y esperamos a que se complete la instalación, para
-                    luego presionar finish o finalizar.<br></br></p>
+                    luego presionar finish o finalizar.</p>
                 <div class="gitDownloads">
                     <figure class="gitD">
                         <img>
@@ -51,7 +51,7 @@
                 </div>
                 <p>Después de haber descargado Git en nuestro equipo, procedemos a abrir nuestra terminal de Git,
                     buscando la aplicación a través de la barra de búsqueda con la palabra Git o directamente en nuestro
-                    equipo.<br></br></p>
+                    equipo.</p>
                 <div class="gitBash">
                     <figure class="gitB">
                         <img>
@@ -62,14 +62,14 @@
                 </div>
                 <h3>Configuración inicial</h3>
                 <p>Antes que todo debemos asegurarnos que Git esté correctamente instalado en nuestro sistema. Puedes
-                    verificarlo con git --version o git -v que sería la abreviación.<br></br></p>
+                    verificarlo con git --version o git -v que sería la abreviación.</p>
                 <div class="gitVersionGitV">
                     <figure class="gitVersionV">
                         <img>
                     </figure>
                 </div>
                 <p>Luego, debemos configurar nuestro nombre y correo electrónico, con los comandos git config --global
-                    user.name “Nombre de usuario” y git config --global user.email “Correo electrónico”. <br></br></p>
+                    user.name “Nombre de usuario” y git config --global user.email “Correo electrónico”.</p>
                 <p>Por ejemplo, git config --global user.name “Pepe Pérez” y git config --global user.email
                     “pepitoperez@gmail.com”.<br></br></p>
                 <div class="config">
@@ -81,7 +81,7 @@
                     </figure>
                 </div>
                 <p>Por último, se debe comprobar que se han establecido las configuraciones, para ello ejecutaremos el
-                    comando git config --list.<br></br></p>
+                    comando git config - -list</p>
                 <div class="gitConfigList">
                     <figure class="configList">
                         <img>
@@ -91,14 +91,14 @@
                 <p>Para comenzar, debemos saber en que lugar de nuestro equipo nos encontramos actualmente, con el
                     propósito de definir si es el lugar deseado para albergar nuestro proyecto, o si por el contrario,
                     queremos cambiar la ruta donde se guardará este localmente. Para ello ejecutaremos el comando pwd
-                    como se muestra a continuación. <br></br></p>
+                    como se muestra a continuación.</p>
                 <div class="pwd">
                     <figure class="pwdCom">
                         <img>
                     </figure>
                 </div>
                 <p>Si necesitamos cambiar la ruta donde se albergará nuestro proyecto, simplemente ejecutamos cd /el
-                    lugar donde queremos albergarlo. Ejemplo: cd /d.<br></br></p>
+                    lugar donde queremos albergarlo. Ejemplo: cd /d</p>
                 <div class="cd">
                     <figure class="cdCom">
                         <img>
@@ -106,7 +106,7 @@
                 </div>
                 <p>Luego, enlistamos todos los directorios o carpetas, y archivos que contiene el lugar que
                     seleccionamos para albergar nuestro proyecto, en este caso el disco d; para esto, ejecutamos el
-                    comando ls.<br></br></p>
+                    comando ls.</p>
                 <div class="ls">
                     <figure class="lsCom">
                         <img>
@@ -114,98 +114,167 @@
                 </div>
                 <p>Para crear un directorio o carpeta, el cual contendrá nuestro proyecto, ejecutaremos el comando
                     mkdir, seguido del nombre de la carpeta o directorio que queremos crear. Ejemplo: mkdir
-                    Tutorial_Git.<br></br></p>
+                    Tutorial Git</p>
                 <div class="mkdir">
                     <figure class="mkdirCom">
                         <img>
                     </figure>
                 </div>
                 <p>Nuevamente colocamos ls para enlistar, ya allí nos debe de aparecer la nueva carpeta o directorio que
-                    creamos, en este caso, Tutorial_Git.<br></br></p>
+                    creamos, en este caso, Tutorial_Git.</p>
                 <div class="lsNew">
                     <figure class="lsNewCom">
                         <img>
                     </figure>
                 </div>
                 <p>Ahora ingresamos a la carpeta o directorio, para lo cual colocamos cd, seguido del nombre de la
-                    carpeta. Ejemplo: cd Tutorial_Git.<br></br></p>
+                    carpeta. Ejemplo: cd Tutorial_Git</p>
                 <div class="cdOpen">
                     <figure class="cdOpenCom">
                         <img>
                     </figure>
                 </div>
                 <p>Una vez que estamos dentro de la carpeta vamos a crear un archivo, para ello colocamos touch seguido
-                    del nombre del archivo que queremos crear, en este caso index.html<br></br></p>
+                    del nombre del archivo que queremos crear, en este caso index.html</p>
                 <div class="touch">
                     <figure class="touchCom">
                         <img>
                     </figure>
                 </div>
                 <p>Para confirmar que el archivo ha sido creado de forma exitosa enlistamos con ls; allí nos deben
-                    aparecer los archivos creados, para este caso index.html <br></br></p>
+                    aparecer los archivos creados, para este caso index.html</p>
                 <div class="lsConfirmation">
                     <figure class="lsConfirmationCom">
                         <img>
                     </figure>
                 </div>
-                <p>A continuación, abrimos el Visual Studio Code con el comando code .<br></br></p>
+                <p>A continuación, abrimos el Visual Studio Code con el comando code .</p>
                 <div class="code">
                     <figure class="codeCom">
                         <img>
                     </figure>
                 </div>
                 <p>Después de abrir Visual Studio Code, procedemos a crear nuestro repositorio Git con el comando git
-                   init, el cual nos va a permitir mantener las versiones de nuestro código.<br></br></p>
+                    init, el cual nos va a permitir mantener las versiones de nuestro código.</p>
                 <div class="init">
                     <figure class="initCom">
                         <img>
                     </figure>
                 </div>
                 <p>Si queremos corroborar que el paso anterior fue ejecutado correctamente, simplemente colocamos ls -a,
-                   lo que permitirá que se muestren los directorios ocultos. <br></br></p>
+                    lo que permitirá que se muestren los directorios ocultos.</p>
                 <div class="lsa">
                     <figure class="lsaCom">
                         <img>
                     </figure>
                 </div>
                 <p>Luego de haber seguido estos pasos, procedemos a mirar el estado de nuestro repositorio con git
-                   status, donde sabremos en que etapa se encuentra nuestro proyecto.<br></br></p>
+                    status, donde sabremos en que etapa se encuentra nuestro proyecto.</p>
                 <div class="statusOne">
                     <figure class="statusOneCom">
                         <img>
                     </figure>
                 </div>
                 <p>Como vemos, nos encontramos actualmente en la ramificación master o rama principal; no se encuentra
-                   ningún commit todavía y hay un archivo de nombre index.html que aún no está siendo rastreado. Para
-                   que Git rastree este archivo, lo debemos agregar o adicionar y para ello, usaremos el comando git
-                   add seguido del nombre del archivo. Ejemplo: git add index.html <br></br></p>
+                    ningún commit todavía y hay un archivo de nombre index.html que aún no está siendo rastreado. Para
+                    que Git rastree este archivo, lo debemos agregar o adicionar y para ello, usaremos el comando git
+                    add seguido del nombre del archivo. Ejemplo: git add index.html</p>
                 <div class="addOne">
                     <figure class="addOneCom">
                         <img>
                     </figure>
                 </div>
                 <p>Nota: lo ideal es hacer este procedimiento por cada archivo no rastreado o ya modificado, ya que se
-                   considera una buena práctica, pues también tenemos la posibilidad de hacer una adición de forma
-                   global o, mejor dicho, agregar todos los archivos a la vez, esto ocurre con el comando git add
-                   seguido de un punto. Ejemplo: git add .<br></br></p>
+                    considera una buena práctica, pues también tenemos la posibilidad de hacer una adición de forma
+                    global o, mejor dicho, agregar todos los archivos a la vez, esto ocurre con el comando git add
+                    seguido de un punto. Ejemplo: git add .</p>
                 <p>Nuevamente colocamos git status, para verificar el estado del repositorio, donde nos muestra que el
-                   archivo está siendo rastreado ahora (está agregado) y se encuentra en fase de staged.<br></br></p>
+                    archivo está siendo rastreado ahora (está agregado) y se encuentra en fase de staged.</p>
                 <div class="statusTwo">
                     <figure class="statusTwoCom">
                         <img>
                     </figure>
                 </div>
                 <p>Ahora procederemos a hacer el envío al repositorio local de los cambios realizados, para esto
-                   usaremos el comando git commit -m “comentario de los cambios que hice para este staged”.<br></br></p>
+                    usaremos el comando git commit -m “comentario de los cambios que hice para este staged”.</p>
                 <div class="commitm">
                     <figure class="commitmCom">
                         <img>
                     </figure>
                 </div>
                 <h3>Creación de branches (Ramas)</h3>
-                <p><br></br></p>
-                <p><br></br></p>
-                <p><br></br></p>
+                <p>Como mencionamos anteriormente, los repositorios traen una rama por defecto llamada main o master, lo
+                    que significa rama principal. La recomendación es trabajar en otras ramas diferentes a la rama
+                    principal, ya que por buenas prácticas no se debe tocar la rama principal hasta estar completamente
+                    seguros de hacer un merge o en casos de producción, hasta tener la aprobación de la persona
+                    encargada del proyecto.</p>
+                <p>Para comenzar, es importante entender en que momentos podemos crear ramas, como gestionarlas y en que
+                    momento eliminarlas. Podemos crear una rama por cada tarea que vayamos a realizar, siendo muy
+                    específicos con el nombre de la misma (se debe mantener relación entre el nombre y la tarea que se
+                    esté ejecutando), por ejemplo, si se desea crear un botón de siguiente, se podría nombrar a la rama
+                    como next_botton y, si es necesario hacer mejoras sin querer arriesgar el código que ya se tiene, lo
+                    mejor será crear una subrama que sea directamente clonada de la rama next_botton, puede ser llamada
+                    version_next_botton.</p>
+                <p>A continuación, crearemos una rama llamada version_secondary, para lo cual usaremos el comando git
+                    branch seguido del nombre de la rama que queremos crear (Ej: git branch version_secondary); este nos
+                    permitirá crear una rama directamente clonada de la rama donde nos encontremos en el momento, en
+                    este caso sería la rama main o master.</p>
+                <div class="">
+                    <figure class="">
+                        <img>
+                    </figure>
+                </div>
+                <p>Para comprobar que la rama sí ha sido debidamente creada, ejecutaremos el comando git branch sin nada
+                    más, este nos enviará un listado de las ramas activas en nuestro repositorio y, además nos indicará
+                    con un asterisco (*) y un color diferente, la rama en la cual nos encontramos trabajando
+                    actualmente.</p>
+                <div class="">
+                    <figure class="">
+                        <img>
+                    </figure>
+                </div>
+                <p>Después de verificar que la rama ha sido correctamente creada, pasaremos a migrar de una rama a otra,
+                    en este caso de la rama main o master a la rama version_secondary donde comenzaremos a trabajar en
+                    nuestro proyecto; esto lo hacemos con el comando git checkout seguido del nombre de la rama a la que
+                    deseamos migrar. Ejemplo: git checkout version_secondary</p>
+                <div class="">
+                    <figure class="">
+                        <img>
+                    </figure>
+                </div>
+                <p>Nuevamente colocamos git branch sin nada más, este comando nos debe mostrar que efectivamente
+                    cambiamos de rama, indicándonos con un asterisco (*) y un color diferente la nueva rama en la que
+                    nos encontramos, que debe corresponder a la rama en la que deseamos trabajar, en este contexto, la
+                    rama version_secondary.</p>
+                <div class="">
+                    <figure class="">
+                        <img>
+                    </figure>
+                </div>
+                <p>Luego de haber seguido estos pasos, ya estamos listos para iniciar a trabajar en nuestra nueva rama;
+                    por lo que ya podemos hacer cambios en nuestro código según lo necesitemos, sin poner en riesgo
+                    nuestro proyecto. Recordemos que para abrir nuestro Visual Studio Code desde la terminal de Git,
+                    debemos ejecutar el comando code .</p>
+                <p>Una vez realizados los cambios en nuestro proyecto, procederemos a hacer un git status, donde
+                    sabremos en que etapa se encuentran nuestros archivos; luego de esto, haremos un git add para que
+                    Git rastree estos archivos y, por último, un git commit -m “” para que se envíen los cambios
+                    realizados, al repositorio local. Se recomienda ejecutar nuevamente un git status al finalizar, para
+                    conocer cómo se encuentra el árbol de trabajo.</p>
+                <div class="">
+                    <figure class="">
+                        <img>
+                    </figure>
+                </div>
+                <p>Después de haber subido todos los cambios al repositorio local en jurisdicción de nuestra nueva rama
+                    y luego de estar seguros que esta se encuentra totalmente actualizada y lista, procederemos con el
+                    merge, el cual nos permite llevar todos los cambios de la rama en la que estamos trabajando
+                    actualmente, en este caso version_secondary, a la rama main o master que sería la rama principal, a
+                    este procedimiento se le conoce como fusión. La fusión es la forma que tiene Git de volver a unir un
+                    historial bifurcado. El comando git merge permite tomar las líneas independientes de desarrollo
+                    creadas por git branch e integrarlas en una sola rama, para este caso la rama principal.</p>
+                <p>Nota: siempre nos debemos posicionar en la rama a la que deseamos llevar los cambios, en este caso la
+                    rama main o master. Para esto, debemos hacer un git checkout seguido del nombre de la rama en la que
+                    nos debemos posicionar. Ejemplo: git checkout main</p>
                 <p><br></br></p>
             </div>
             <button id="back_Two" target="_blank"><a href="./index5.html">VOLVER</a></button>
