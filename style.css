@@ -916,3 +916,51 @@ h4 {
     margin-top: 4%;
     margin-bottom: 4%;
 }
+
+.git_checkout_main {
+    background-image: url("Images/checkout_main.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: -12.5%;
+    margin-bottom: -12.2%;
+}
+
+.git_merge {
+    background-image: url("Images/merge.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: -10%;
+    margin-bottom: -10.2%;
+}
+
+.branch_deleted {
+    background-image: url("Images/deleted.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: -12.5%;
+    margin-bottom: -12.2%;
+}
+
+.branchUnique {
+    background-image: url("Images/branch_unique.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: -13.2%;
+    margin-bottom: -12.2%;
+}
