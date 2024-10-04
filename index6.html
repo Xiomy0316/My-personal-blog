@@ -275,7 +275,39 @@
                 <p>Nota: siempre nos debemos posicionar en la rama a la que deseamos llevar los cambios, en este caso la
                     rama main o master. Para esto, debemos hacer un git checkout seguido del nombre de la rama en la que
                     nos debemos posicionar. Ejemplo: git checkout main</p>
-                <p><br></br></p>
+                <div class="checkout_main">
+                    <figure class="git_checkout_main">
+                        <img>
+                    </figure>
+                </div>
+                <p>Luego de estar debidamente posicionados en la rama a donde queremos traer los cambios (en este caso
+                    la rama main), seguiremos con el merge; para esto, lanzamos el comando git merge seguido del nombre
+                    de la rama que tiene los cambios, o sea con la que veníamos trabajando, en este caso, la rama
+                    version_secondary. Ejemplo: git merge version_secondary</p>
+                <div class="merge">
+                    <figure class="git_merge">
+                        <img>
+                    </figure>
+                </div>
+                <p>Una vez realizado el merge, ya no necesitaremos la rama en la que veníamos trabajando, o sea la rama
+                    version_secondary, por lo que la eliminaremos, y para esto ejecutaremos el comando git branch -d
+                    seguido del nombre de la rama que deseamos eliminar, en este caso version_secondary. Ejemplo: git
+                    branch -d version_secondary</p>
+                <div class="deleted">
+                    <figure class="branch_deleted">
+                        <img>
+                    </figure>
+                </div>
+                <p>Si deseamos comprobar que la rama ha sido correctamente eliminada, ejecutaremos el comando git branch
+                    sin nada más, recordemos que este comando nos enviará un listado de las ramas activas en nuestro
+                    repositorio, en donde nos debe aparecer únicamente la rama main o master (rama principal).</p>
+                <div class="branch_unique">
+                    <figure class="branchUnique">
+                        <img>
+                    </figure>
+                </div>
+                <p></p>
+                <p></p>
             </div>
             <button id="back_Two" target="_blank"><a href="./index5.html">VOLVER</a></button>
         </section>
