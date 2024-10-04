@@ -964,3 +964,87 @@ h4 {
     margin-top: -13.2%;
     margin-bottom: -12.2%;
 }
+
+.New_repository {
+    background-image: url("Images/New_repository.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: 4.2%;
+    margin-bottom: -1.8%;
+}
+
+.Tutorial_Git_Repository {
+    background-image: url("Images/Tutorial_Git_Repository.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: 4.2%;
+    margin-bottom: -4%;
+}
+
+.public_Repository {
+    background-image: url("Images/public_Repository.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: 4.2%;
+    margin-bottom: -4.2%;
+}
+
+.create_Repository {
+    background-image: url("Images/create_Repository.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: 4.2%;
+    margin-bottom: -1.2%;
+}
+
+.copyLinkComs {
+    background-image: url("Images/copyLink.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: -9.8%;
+    margin-bottom: -9.9%;
+}
+
+.git_remote {
+    background-image: url("Images/remote.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: -4%;
+    margin-bottom: -3.6%;
+}
+
+.githubView {
+    background-image: url("Images/github_view.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:block;
+    height: 100vh;
+    width: 90%;
+    margin-top: -5.9%;
+    margin-bottom: -5.8%;
+}
