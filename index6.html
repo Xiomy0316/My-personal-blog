@@ -162,7 +162,9 @@
                     </figure>
                 </div>
                 <p>Si queremos corroborar que el paso anterior fue ejecutado correctamente, simplemente colocamos ls -a,
-                    lo que permitirá que se muestren los directorios ocultos.</p>
+                    lo que permitirá que se muestren los directorios ocultos. Es importante tener en cuenta que el comando 
+                    anteriormente ejecutado (git init) lo que hace es generar una carpeta oculta llamada .git, la cual 
+                    contiene los metadatos que Git necesita para controlar las versiones de nuestro proyecto.</p>
                 <div class="lsa">
                     <figure class="lsaCom">
                         <img>
@@ -251,6 +253,16 @@
                         <img>
                     </figure>
                 </div>
+                <p>Nota: para ahorrarnos un poco de código, podríamos tomar un atajo con la ayuda del comando git 
+                    checkout -b seguido del nombre de la rama que queremos crear (Ej: git checkout -b version_secondary); 
+                    este nos permitirá crear una rama mientras simultáneamente migramos a ella. Recordemos que el comando 
+                    git branch nos mostrará el listado de las ramas activas, donde podremos corroborar que la rama ha sido 
+                    creada con éxito y que efectivamente ya nos encontramos en ella.</p>
+                <div class="option_branch">
+                    <figure class="optionBranch">
+                        <img>
+                    </figure>
+                </div>
                 <p>Luego de haber seguido estos pasos, ya estamos listos para iniciar a trabajar en nuestra nueva rama;
                     por lo que ya podemos hacer cambios en nuestro código según lo necesitemos, sin poner en riesgo
                     nuestro proyecto. Recordemos que para abrir nuestro Visual Studio Code desde la terminal de Git,
@@ -332,6 +344,9 @@
                     comandos (git remote add origin seguido de la dirección de mi repositorio remoto, git branch -M main, 
                     git push -u origin main). Debemos de hacer clic en los cuadritos superpuestos (ícono de copiar) 
                     que se encuentran en la parte derecha de estas tres líneas.</p>
+                <p>Nota: el comando git branch -M main lo que hace es cambiar el nombre a la rama principal; el comando git 
+                    remote add origin seguido de la dirección de mi repositorio remoto, crea la conexión entre el repositorio remoto 
+                    y el local y, el comando git push -u origin main, se encarga de empujar los cambios al repositorio remoto.</p>
                 <div class="copyLink">
                     <figure class="copyLinkComs">
                         <img>
