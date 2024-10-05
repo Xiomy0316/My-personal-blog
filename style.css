@@ -553,6 +553,7 @@ h4 {
     font-weight: 600;
     line-height: 1em;
     text-align: right;
+    text-decoration: underline;
 }
 
 /*Entrada de blog de git*/
@@ -602,6 +603,7 @@ h4 {
     line-height: 1.25em;
     text-align: justify;
     margin: 24px;
+    text-decoration:#ffffff;
 }
 
 .gitD {
